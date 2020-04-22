@@ -1,0 +1,5 @@
+4. Khi mở ứng dụng lên và ứng dụng chạy thì các phương thức được gọi là: oncreate -> onstart -> onresume
+Sau khi người dùng bấm nút back thì ứng dụng này sẽ bị xóa bỏ hoàn toàn nên các phương thức được gọi là: onresume -> onpause -> onstop -> ondestroy
+và sau khi mở lại ứng dụng thì gọi lại oncreate -> onstart -> onresume và ứng dụng được làm mới lại hoàn toàn
+5. Khi ứng dụng đang chạy người sử dụng ấn nút home thì các phương thức được gọi là: onpause -> onstop -> onrestart -> onstart -> onresume
+vì ứng dụng chưa bị tắt hẳn
